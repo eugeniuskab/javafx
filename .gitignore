@@ -1,0 +1,11 @@
+# Maven и Java
+**/target/
+**/out/
+*.class
+
+# IntelliJ IDEA
+**/.idea/
+*.iml
+
+.DS_Store
+**/.DS_Store
