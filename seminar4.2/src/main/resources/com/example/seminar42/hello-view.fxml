@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<Pane fx:id="canvasPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.seminar42.HelloController">
+   <children>
+      <VBox layoutX="14.0" layoutY="14.0" prefHeight="179.0" prefWidth="100.0" spacing="10.0" style="-fx-border-color: black;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onAddHerbivoreClick" text="Add Herbivore" />
+            <Button mnemonicParsing="false" onAction="#onAddCarnivoreClick" text="Add Carnivore" />
+            <Button mnemonicParsing="false" onAction="#onReverseCarnivoresClick" prefHeight="44.0" prefWidth="98.0" text="Reverse Carnivores" wrapText="true" />
+            <Button mnemonicParsing="false" onAction="#onTogglePauseClick" text="Pause/Reset" />
+         </children>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</Pane>
