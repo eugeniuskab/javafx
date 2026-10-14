@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<Pane fx:id="canvasPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.seminar41.HelloController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="14.0" layoutY="14.0" prefHeight="216.0" prefWidth="100.0" spacing="10.0" style="-fx-border-color: black;">
+         <children>
+            <Button fx:id="btnAddRectangle" alignment="TOP_CENTER" mnemonicParsing="false" onAction="#onAddRectangleClick" text="Add Rectangle" />
+            <Button fx:id="btnAddCircle" mnemonicParsing="false" onAction="#onAddCircleClick" text="Add Circle" />
+            <Button fx:id="btnAddSquare" mnemonicParsing="false" onAction="#onAddSquareClick" text="Add Square" />
+            <Button fx:id="btnColorCircles" mnemonicParsing="false" onAction="#onColorCirclesClick" text="Color Circles" />
+            <Button fx:id="btnMoveAllDown" mnemonicParsing="false" onAction="#onMoveAllDownClick" prefHeight="45.0" prefWidth="98.0" text="Move All Down" textAlignment="CENTER" wrapText="true" />
+         </children>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</Pane>
